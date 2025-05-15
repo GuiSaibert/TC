@@ -1,0 +1,25 @@
+
+  
+    body {
+      background-color: #d4edda;
+      color: #155724;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .mensagem {
+      background-color: #c3e6cb;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .mensagem h1 {
+      font-size: 24px;
+    }
+  

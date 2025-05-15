@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saibert Detail</title>
+    <link rel="stylesheet" href="saibert.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logog.jpeg" alt="Logo Saibert Detail" class="logo">
+            <div class="header-text">
+                <h1>Saibert Detail</h1>
+                <p>Estética automotiva especializada em motos</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>1. Lavagem Detalhada Simples   -   50,00 R$</li>
+            <li>2. Lavagem Detalhada Completa   -   100,00 R$</li>
+            <li>3. Polimento Técnico  -   200,00 R$</li>
+        </ul>
+    </section>
+
+    <section class="form-section">
+        <h2>Agende seu Atendimento</h2>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Serviço desejado:</label>
+            <select id="service" name="service" required>
+                <option value="">-- Selecione --</option>
+                <option value="lavagem">Lavagem Detalhada Simples</option>
+                <option value="polimento">Lavagem Detalhada Completa</option>
+                <option value="enceramento">Polimento Técnico</option>
+            </select>
+
+            <label for="date">Data do atendimento:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Saibert Detail - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
